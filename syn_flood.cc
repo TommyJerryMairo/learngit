@@ -22,6 +22,8 @@
 #include <signal.h>
 #include <pthread.h>
 #include <errno.h>
+#include <memory.h>
+#include <arpa/inet.h>
  
 typedef struct ip_hdr
 {
