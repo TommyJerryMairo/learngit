@@ -19,4 +19,8 @@ likelihood
 fracture
 joint
 compact
-
+scale
+emerge
+gap
+ease
+reversing
