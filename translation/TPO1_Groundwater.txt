@@ -1,0 +1,19 @@
+﻿TPO1:Groundwater
+1. The same thing happens to this day, though on a smaller scale, wherever a sediment-laden river or stream emerges from a mountain valley onto relatively flat land, dropping its load as the current slows: the water usually spreads out fanwise, depositing the sediment in the form of a smooth, fan-shaped slope.
+尽管基于更小的概率，同样的事情发生在这一天，无论哪里一个负责沉积物的河流或水流从山谷中形成，奔腾到相对平坦的陆地上，随着水流的减缓，使他的负载物堆叠，因此这些水流经常展开成扇形，将沉积物堆叠成平坦扇形的斜坡。
+
+2. Sediments are also dropped where a river slows on entering a lake or the sea, the deposited sediments are on a lake floor or the seafloor at first, but will be located inland at some future date, when the sea level falls or the land rises; such beds are sometimes thousands of meters thick.
+沉积物也掉落在河流流入湖泊或海洋从而变缓的地方，这些沉积物最开始在湖底或海底，但是当海平面下降或陆地上升的时候，将会被在未来的某一天置于内陆；这些前床体有时也成千上万米厚。
+
+3. In lowland country almost any spot on the ground may overlie what was once the bed of a river that has since become buried by soil; if they are now below the water’s upper surface (the water table), the gravels and sands of the former riverbed, and its sandbars, will be saturated with groundwater.
+在低地国家， 几乎地面上所有的地点大概被曾经是河床但是之后被土壤掩埋的东西多次覆盖。如果他们至今任然处于水表之下，岩砾层、源自昔日河床的沙子，和玄武岩都将会被地下水浸透。
+
+4. This is because the gaps among the original grains are often not totally plugged with cementing chemicals; also, parts of the original grains may become dissolved by percolating groundwater, either while consolidation is taking place or at any time afterwards.
+这是由于原始谷物间的细缝不是常常完全被黏合的化学物质填充。部分原始谷物也会被渗出的地下水溶解，不是凝固物形成之时，就是在这之后。
+
+5. But note that porosity is not the same as permeability, which measures the ease with which water can flow through a material; this depends on the sizes of the individual cavities and the crevices linking them.
+但是要注意，作为水可以流过一种材料的度量的多孔性，并不与渗透性一模一样。
+
+6. If the pores are large, the water in them will exist as drops too heavy for surface tension to hold, and it will drain away; but if the pores are small enough, the water in them will exist as thin films, too light to overcome the force of surface tension holding them in place; then the water will be firmly held.
+如果这些细孔过于巨大，其中的水由于过重而导致表面张力难以挟持，将会以水滴的形式流走。但是，如果这些细孔足够小，里面的水会由于过于轻而不能克服表面挟持他们的张力，将会以薄膜的形式存留，然后，水会被紧紧地留住。
+
