@@ -17,7 +17,7 @@ def main(network, nick, chan, port, password):
   irc = ssl.wrap_socket(socket)
   def speak(message):
     irc.send(('PRIVMSG #%s :%s\r\n' % (chan,message)).encode('utf-8'))
-  irc.send('NICK %s\r\n' % nick)
+  irc.send(('NICK %s\r\n' % nick).encode('utf-8'))
   time.sleep(1)
   print (irc.recv(4096))
   irc.send(('USER %s %s %s :My bot\r\n' % (nick,nick,nick)).encode('utf-8'))
