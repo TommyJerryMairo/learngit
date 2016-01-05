@@ -37,7 +37,8 @@ def main(network, nick, chan, port, password):
     if data.find('摸摸') != -1:
       speak('不哭不哭 站起来撸')
     if data.find('`Shut up tjmbot!\r\n') != -1:
-      irc.send('QUIT :吾去矣\r\n')
+      irc.send('QUIT :吾去矣 \r\n')
+      time.sleep(1)
       exit()
     print data
 if __name__=='__main__':
