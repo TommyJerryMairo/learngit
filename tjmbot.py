@@ -6,7 +6,7 @@ import sys
 
 network = 'irc.freenode.net'
 nick = sys.argv[1]
-chan = '#'+sys.argv[2]
+chan = sys.argv[2]
 password = sys.argv[3]
 port = 6697
 
