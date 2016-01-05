@@ -30,7 +30,7 @@ def main(network, nick, chan, port, password):
   print (irc.recv(4096))
   time.sleep(1)
   while True:
-    data = (irc.recv(4096))
+    data = (irc.recv(4096)).decode('utf-8')
     print (data)
     if data.find('PING') != -1:
       irc.send(('PONG '+data.split()[1]+'\r\n').encode('utf-8'))
