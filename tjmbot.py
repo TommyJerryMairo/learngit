@@ -11,6 +11,8 @@ password = sys.argv[3]
 port = 6697
 
 socket = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+def speak(message):
+  irc.send('PRIVMSG #%s :%s\r\n' % (chan,message))
 def main(network, nick, chan, port, password):
   socket.connect((network,port))
   irc = ssl.wrap_socket(socket)
@@ -32,7 +34,7 @@ def main(network, nick, chan, port, password):
     if data.find('PING') != -1:
       irc.send('PONG '+data.split()[1]+'\r\n')
     if data.find('摸摸') != -1:
-      irc.send('PRIVMSG #%s :不哭不哭 站起来撸\r\n' % chan)
+      speak('不哭不哭 站起来撸')
     if data.find('`Shut up tjmbot!\r\n') != -1:
       irc.send('QUIT\r\n')
       exit()
