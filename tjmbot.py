@@ -11,11 +11,12 @@ password = sys.argv[3]
 port = 6697
 
 socket = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-def speak(message):
-  irc.send('PRIVMSG #%s :%s\r\n' % (chan,message))
+
 def main(network, nick, chan, port, password):
   socket.connect((network,port))
   irc = ssl.wrap_socket(socket)
+  def speak(message):
+    irc.send('PRIVMSG #%s :%s\r\n' % (chan,message))
   irc.send('NICK %s\r\n' % nick)
   time.sleep(1)
   print irc.recv(4096)
