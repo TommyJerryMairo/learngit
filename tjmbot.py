@@ -20,6 +20,7 @@ def main(network, nick, chan, port, password):
   print irc.recv(4096)
   irc.send('PRIVMSG NickServ :IDENTIFY %s\r\n' % password)
   print irc.recv(4096)
+  time.sleep(3)
   irc.send('JOIN #%s\r\n' % chan)
   print irc.recv(4096)
   while True:
