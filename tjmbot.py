@@ -26,9 +26,11 @@ def main(network, nick, chan, port, password):
   while True:
     data = irc.recv(4096)
     print data
-    if data.find('`PING') != -1:
+    if data.find('PING') != -1:
       irc.send('PONG '+data.split()[1]+'\r\n')
-    if data.find('`gtfo\r\n') != -1:
+	if data.find('摸摸') != -1:
+	  data.send('不哭不哭 站起来撸\r\n')
+    if data.find('`Shut up tjmbot!\r\n') != -1:
       irc.send('QUIT\r\n')
       exit()
     print data
