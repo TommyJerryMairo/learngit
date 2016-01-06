@@ -32,8 +32,8 @@ def main(network, nick, chan, port, password):
   while True:
     try:  
       data = (irc.recv(4096)).decode('utf-8')
-	except UnicodeDecodeError :
-	  print ('Warning: Received bytes cannot be decoded via utf-8!!!\r\n')
+    except UnicodeDecodeError :
+      print ('Warning: Received bytes cannot be decoded via utf-8!!!\r\n')
     print (data)
     if data.find('PING') != -1:
       irc.send(('PONG '+data.split()[1]+'\r\n').encode('utf-8'))
