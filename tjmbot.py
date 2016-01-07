@@ -41,6 +41,8 @@ def main(network, nick, chan, port, password):
       speak('不哭不哭 站起来撸')
     if data.find('`嚎吧') != -1:
       speak('嗷呜~嗷呜~~~嗷呜~~~~~~~~~~~~~\r\n')
+    if data.find('`poi') != -1:
+      speak('❀(っ•∇•c)❀ ~poi ~poi ~poi\r\n')
     if (data.find('逃~') != -1) or (data.find('( 逃') != -1) or (data.find('(逃') != -1) :
       speak('逃什么逃！你丫就是一个没对象的野指针，哪会有人追你！\r\n')
     if data.find('`Shut up tjmbot!\r\n') != -1:
