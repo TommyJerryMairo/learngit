@@ -37,7 +37,7 @@ def main(network, nick, chan, port, password):
     print (data)
     if data.find('PING') != -1:
       irc.send(('PONG '+data.split()[1]+'\r\n').encode('utf-8'))
-    if data.find('摸摸') != -1 and data.find('摸摸') <3:
+    if (data.find('摸摸') != -1 and data.find('摸摸') <3):
       speak('不哭不哭 站起来撸')
     if data.find('`嚎吧') != -1:
       speak('嗷呜~嗷呜~~~嗷呜~~~~~~~~~~~~~\r\n')
