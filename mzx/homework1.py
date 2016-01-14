@@ -4,16 +4,11 @@ import random
 import string
 
 def main():
-    mengzhaoxin=[]
-    for i in string.ascii_letters:
-        mengzhaoxin.append(i)
-    for i in range(10):
-        mengzhaoxin.append(str(i))
+    mengzhaoxin=list(string.ascii_letters:)
+    mengzhaoxin.extend(range(10))
     for i in range(200):
-        mzx_gf=[]
-        for j in range(20):
-            mzx_gf.append(random.choice(mengzhaoxin))
-        print "".join(mzx_gf)
+        random.shuffle(mengzhaoxin)
+		print ''.join(mengzhaoxin[:20])
 
 if __name__=='__main__':
     main()
