@@ -5,8 +5,7 @@ import string
 
 def main():
     mengzhaoxin=list(string.ascii_letters)
-    mengzhaoxin.extend(range(10))
-    mengzhaoxin=list(map(lambda x: str(x),mengzhaoxin))
+    mengzhaoxin.extend(list(map(lambda x: str(x),range(10))))
     for i in range(200):
         random.shuffle(mengzhaoxin)
 	print ''.join(mengzhaoxin[:20])
