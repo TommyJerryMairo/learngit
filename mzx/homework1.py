@@ -4,7 +4,7 @@ import random
 import string
 
 def main():
-    mengzhaoxin=list(string.ascii_letters:)
+    mengzhaoxin=list(string.ascii_letters)
     mengzhaoxin.extend(range(10))
     for i in range(200):
         random.shuffle(mengzhaoxin)
