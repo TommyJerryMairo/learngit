@@ -10,6 +10,7 @@ def main(u,p,d):
     mengzhaoxin.extend(list(map(lambda x: str(x),range(10))))
     conn=mysql.connector.connect(user=u,password=p,database=d)
     cursor=conn.cursor()
+    cursor.execute('drop table if exists verycode')
     cursor.execute('create table verycode (id int primary key, verification varchar(20))')
     for i in range(1,201):
         random.shuffle(mengzhaoxin)
