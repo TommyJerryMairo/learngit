@@ -13,8 +13,8 @@ def main(u,p,d):
 	cursor.execute('create table user (id int primary key, verification varchar(20))')
     for i in range(200):
         random.shuffle(mengzhaoxin)
-		cursor.execute('insert into user (id, name) values (%s, %s)', [i, ''.join(mengzhaoxin[:20])])
-		cursor.rowcount
+	cursor.execute('insert into user (id, name) values (%s, %s)', [i, ''.join(mengzhaoxin[:20])])
+	cursor.rowcount
 	conn.commit()
 	cursor.close()
 		
